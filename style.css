@@ -122,9 +122,11 @@ li.dropdown {
      line-height: 1.5;
      max-width: 100%;
      clear: both;
+
 }
 
 .menu-listings h3 {
+    margin: 0;
     font-family: 'Satisfy', cursive;
     font-size: 200%;
     font-weight: normal;
@@ -133,14 +135,41 @@ li.dropdown {
 }
 
 .menu-item {
-    display: inline-block;
     width: 33%;
+    padding: 1em 4em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.menu-item ul {
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    position: relative;
+    padding: 0;
 }
 
 .menu-item li {
-    list-style-type: none;
     line-height: 1.25;
     position: relative;
+}
+
+.menu-item p, h4 {
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+.menu-item h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 125%;
+    font-weight: normal;
+    color: #000;
+}
+
+.item-price {
+    font-weight: bold;
 }
 
 /* footer */
