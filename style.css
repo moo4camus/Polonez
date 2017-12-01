@@ -192,6 +192,52 @@ li.dropdown {
     font-weight: bold;
 }
 
+/* drinks */
+
+.drink-listings {
+     font-family: 'Crimson Text', serif;
+     line-height: 1.5;
+     max-width: 100%;
+     clear: both;
+     margin-bottom: 4em;
+     text-align: center;
+
+}
+
+.drink-listings h3 {
+    padding-bottom: 1em;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    font-weight: normal;
+    color: #cc3300;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.drink-item p, h4 {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.drink-item {
+    margin-bottom: 2em;
+}
+
+.drink-item h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 125%;
+    font-weight: normal;
+    color: #000;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+
 /* footer */
 
 .footer {
