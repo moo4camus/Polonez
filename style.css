@@ -115,6 +115,34 @@ li.dropdown {
     margin: 0 auto;
 }
 
+/* menu */
+
+.menu-listings {
+     font-family: 'Crimson Text', serif;
+     line-height: 1.5;
+     max-width: 100%;
+     clear: both;
+}
+
+.menu-listings h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    font-weight: normal;
+    color: #cc3300;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 33%;
+}
+
+.menu-item li {
+    list-style-type: none;
+    line-height: 1.25;
+    position: relative;
+}
+
 /* footer */
 
 .footer {
@@ -125,7 +153,6 @@ li.dropdown {
     clear: both;
     padding: 2em 4em;
     text-align: left;
-    position: absolute;
     width: 100%;
 }
 
@@ -157,36 +184,8 @@ li.dropdown {
 
 }
 
-/* menu */
-
-.menu-listings {
-     font-family: 'Crimson Text', serif;
-     margin: 0 5em;
-     line-height: 1.5
-}
-
-.menu-listings h3 {
-    font-family: 'Satisfy', cursive;
-    font-size: 200%;
-    font-weight: normal;
-    color: #cc3300;
-    text-align: center;
-}
-
-.menu-item1, .menu-item2 {
-    float: left;
-    width: 30%;
-    position: relative;
-
-}
 
 
-
-
-
-.menu-item ul {
-    text-align: left;
-}
 
 
 
