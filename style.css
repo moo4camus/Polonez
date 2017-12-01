@@ -123,6 +123,7 @@ li.dropdown {
      max-width: 100%;
      clear: both;
      margin-bottom: 4em;
+     text-align: center;
 
 }
 
@@ -135,6 +136,20 @@ li.dropdown {
     color: #cc3300;
     text-align: center;
     text-decoration: underline;
+}
+
+.menu-listings p {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.menu-listings li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    font-size: 120%;
+    padding-right: 5em;
+    font-weight: bold;
 }
 
 .menu-item {
