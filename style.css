@@ -122,23 +122,25 @@ li.dropdown {
      line-height: 1.5;
      max-width: 100%;
      clear: both;
+     margin-bottom: 4em;
 
 }
 
 .menu-listings h3 {
+    padding-bottom: 1em;
     margin: 0;
     font-family: 'Satisfy', cursive;
     font-size: 200%;
     font-weight: normal;
     color: #cc3300;
     text-align: center;
+    text-decoration: underline;
 }
 
 .menu-item {
     width: 33%;
-    padding: 1em 4em;
+    padding: 0em 3em 2em;
     display: inline-block;
-    margin-bottom: 1em;
 }
 
 .menu-item ul {
@@ -147,11 +149,14 @@ li.dropdown {
     float: left;
     position: relative;
     padding: 0;
+    margin: 0;
 }
 
 .menu-item li {
     line-height: 1.25;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-item p, h4 {
@@ -183,6 +188,7 @@ li.dropdown {
     padding: 2em 4em;
     text-align: left;
     width: 100%;
+    position: absolute;
 }
 
 .footer a {
